@@ -1,0 +1,3 @@
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd'T'HH:mm:ss.SSSXXX} | %X{TRACE_ID} | %msg%n"

@@ -1,0 +1,7 @@
+##Passing traceid from header#
+GET http://localhost:8080/getPokemonColour?colour=red
+TRACE_ID: 79ba53bc-2950-11eb-adc1-0242ac120003
+
+
+###Using self generated traceid
+GET http://localhost:8080/getPokemonColour?colour=red
